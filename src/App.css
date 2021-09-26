@@ -1,46 +1,43 @@
-body{
-  background-color:rgb(247, 247, 194);
+body {
+  background-color: rgb(245, 191, 191);
 }
 
 .App {
   text-align: center;
-  
 }
 
-
-#line-1{
-  margin-top:10%;
+#line-1 {
+  margin-top: 10%;
   margin-bottom: 0.5rem;
   padding: 2rem;
   color: crimson;
 }
 
-#line-2{
+#line-2 {
   margin-top: 0rem;
   margin-bottom: 2rem;
   font-size: xx-large;
-  font:bolder;
-  }
+  font: bolder;
+}
 
-  #box-1{
-    border-radius: 0.5rem;
-    border-color: crimson;
-    padding: 0.5rem 2rem;
-    font-size: larger;
-    color: darkred;
-  }
-  .btn-wrapper{
-    margin:2rem;
-    text-align: center;
-  }
+#box-1 {
+  border-radius: 0.5rem;
+  border-color: crimson;
+  padding: 0.5rem 2rem;
+  font-size: larger;
+  color: darkred;
+}
+.btn-wrapper {
+  margin: 2rem;
+  text-align: center;
+}
 
-  #btn-1{
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    border-color: brown;
-    background-color: crimson;
-    font-family: inherit;
-    font-size: larger;
-    color: white
-    
-  }
+#btn-1 {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border-color: brown;
+  background-color: crimson;
+  font-family: inherit;
+  font-size: larger;
+  color: white;
+}
