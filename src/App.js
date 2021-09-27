@@ -24,44 +24,45 @@ function App() {
     var ndate = arn[2][3] + arn[2][2];
     var nmonth = arn[2][1] + arn[2][0];
 
-    var baaki;
+    var nextpalidate;
     var difference = 0;
     function npali() {
+      var maxmaonthDays=[31,28,31,30,31,30,31,31,30,31,30,31];
       console.log(ndate, nmonth, nyear);
 
       if (
         parseInt(nmonth) > parseInt(arn[1]) &&
-        parseInt(ndate) < 32 &&
+        parseInt(ndate) < maxmaonthDays[nmonth-1] &&
         parseInt(nmonth) < 13
       ) {
-        baaki = ndate + "/" + nmonth + "/" + nyear;
+        nextpalidate = ndate + "/" + nmonth + "/" + nyear;
         difference =
           new Date(nyear + "-" + nmonth + "-" + ndate) - new Date(str);
         difference /= 1000 * 60 * 60 * 24;
-        console.log(baaki, difference);
+        console.log(nextpalidate, difference);
       } else if (
         parseInt(nmonth) === parseInt(arn[1]) &&
         parseInt(ndate) > parseInt(arn[0]) &&
-        parseInt(ndate) < 32 &&
+        parseInt(ndate) < maxmaonthDays[nmonth-1] &&
         parseInt(nmonth) < 13
       ) {
-        baaki = ndate + "/" + nmonth + "/" + nyear;
+        nextpalidate = ndate + "/" + nmonth + "/" + nyear;
         difference =
           new Date(nyear + "-" + nmonth + "-" + ndate) - new Date(str);
         difference /= 1000 * 60 * 60 * 24;
-        console.log(baaki, difference);
+        console.log(nextpalidate, difference);
       } else {
-        if (parseInt(ndate) > 31 || parseInt(nmonth) > 12) {
+        if (parseInt(ndate) > maxmaonthDays[nmonth-1] || parseInt(nmonth) > 12) {
           do {
             nyear = "" + (parseInt(nyear) + 1);
             ndate = nyear[3] + nyear[2];
             nmonth = nyear[1] + nyear[0];
-          } while (parseInt(ndate) > 31 || parseInt(nmonth) > 12);
+          } while (parseInt(ndate) > maxmaonthDays[nmonth-1] || parseInt(nmonth) > 12);
         }
         nyear = "" + (parseInt(nyear) + 1);
         ndate = nyear[3] + nyear[2];
         nmonth = nyear[1] + nyear[0];
-        baaki = ndate + "/" + nmonth + "/" + nyear;
+        nextpalidate = ndate + "/" + nmonth + "/" + nyear;
         difference =
           new Date(nyear + "-" + nmonth + "-" + ndate) - new Date(str);
         difference /= 1000 * 60 * 60 * 24;
@@ -86,7 +87,7 @@ function App() {
     if (state === "Not a palindrome") {
       state =
         "You missed 😔 Next Palindrome BirthDate is " +
-        baaki +
+        nextpalidate +
         " which is " +
         difference +
         " days away 😶";
