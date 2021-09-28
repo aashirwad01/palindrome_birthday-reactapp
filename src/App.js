@@ -117,6 +117,31 @@ function App() {
       </div>
 
       <h2 style={{ color: "crimson" }}>{state}</h2>
+      <footer>
+      <p> © | 2021 | aashirwad01</p>
+      <ul class="footer-list">
+        <li>
+          <a class="links" href="https://github.com/aashirwad01" target="_blank">
+          <img src="https://img.icons8.com/material-two-tone/24/000000/github.png"/>
+          </a>
+        </li>
+        
+        <li>
+          <a class="links" href="https://twitter.com/aashirwad_01" target="_blank">
+          <img src="https://img.icons8.com/material-sharp/24/000000/twitter.png"/>
+          </a>
+        </li>
+        <li>
+          <a
+            class="links"
+            href="https://www.linkedin.com/in/aashirwadkumar159/"
+            target="_blank"
+          >
+            <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
+          </a>
+        </li>
+      </ul>
+    </footer>
     </div>
   );
 }

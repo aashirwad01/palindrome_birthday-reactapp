@@ -41,3 +41,25 @@ body {
   font-size: larger;
   color: white;
 }
+footer p {
+  margin-top: 15%;
+  font-size: large;
+  text-align: center;
+}
+
+.footer-list {
+  margin-top: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width: 30px;
+  padding: 0.1rem;
+}
+
+
