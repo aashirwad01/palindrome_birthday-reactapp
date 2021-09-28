@@ -119,25 +119,25 @@ function App() {
       <h2 style={{ color: "crimson" }}>{state}</h2>
       <footer>
       <p> © | 2021 | aashirwad01</p>
-      <ul class="footer-list">
+      <ul className="footer-list">
         <li>
-          <a class="links" href="https://github.com/aashirwad01" target="_blank">
-          <img src="https://img.icons8.com/material-two-tone/24/000000/github.png"/>
+          <a className="links" href="https://github.com/aashirwad01" >
+          <img className="img-2" src="https://img.icons8.com/material-two-tone/24/000000/github.png" alt="github"/>
           </a>
         </li>
         
         <li>
-          <a class="links" href="https://twitter.com/aashirwad_01" target="_blank">
-          <img src="https://img.icons8.com/material-sharp/24/000000/twitter.png"/>
+          <a className="links" href="https://twitter.com/aashirwad_01" >
+          <img className="img-2" src="https://img.icons8.com/material-sharp/24/000000/twitter.png" alt="twitter"/>
           </a>
         </li>
         <li>
           <a
-            class="links"
+            className="links"
             href="https://www.linkedin.com/in/aashirwadkumar159/"
-            target="_blank"
+            
           >
-            <img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png"/>
+            <img className="img-2" src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" alt="linkedin"/>
           </a>
         </li>
       </ul>
