@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+A React based app to check whether birthday is palindrome or not
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
