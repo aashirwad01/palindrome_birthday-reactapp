@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Palindrome BirthDate Checker App
 A React based app to check whether birthday is palindrome or not.
 
 ## Uses
