@@ -1,5 +1,49 @@
 # Getting Started with Create React App
-A React based app to check whether birthday is palindrome or not
+A React based app to check whether birthday is palindrome or not.
+
+## Uses
+- Can be used to calculate **whether your birthdate is palindrome or not** in *dd/mm/yyyy* format
+- Can be to known next **palindrome date** 
+- Can be used to know no of days till next **palindrome date**
+- Can handle all the corner cases
+
+### A Palindrome Date Checker App
+
+## Hosted on Netlify [Cash Register](https://palindrome-birthdatechecker.netlify.app/)
+![Cash Register](https://github.com/aashirwad01/aashirwad-site/blob/main/images/markthirteen.png)
+### Intended Use A Cash Register to know notes to return.
+
+
+## Tech Stack Used
+- React
+  - hooks
+    - useState
+    - onClick
+    - onChange
+    - setvalue function
+    - event.target.value
+  - react dom
+    - input
+    - div
+    - h3 h2 h1
+    - footer
+    - img
+ 
+ 
+- Css
+  - text align
+  - border radius
+  - color
+  - background color
+  - font
+  - font size
+ 
+## Future Additions
+- Can be scaled to display day alongside the dates
+- Tech Stack can be improved and expanded to make it more interactive.
+- Can be expanded to have a multiple date formats.
+ 
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
