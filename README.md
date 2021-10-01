@@ -9,8 +9,8 @@ A React based app to check whether birthday is palindrome or not.
 
 ### A Palindrome Date Checker App
 
-## Hosted on Netlify [Cash Register](https://palindrome-birthdatechecker.netlify.app/)
-![Cash Register](https://github.com/aashirwad01/aashirwad-site/blob/main/images/markthirteen.png)
+## Hosted on Netlify [Palindrome BirthDate Slayer](https://palindrome-birthdatechecker.netlify.app/)
+![Palindrome BirthDateSlayer](https://github.com/aashirwad01/aashirwad-site/blob/main/images/markthirteen.png)
 ### Intended Use A Cash Register to know notes to return.
 
 
